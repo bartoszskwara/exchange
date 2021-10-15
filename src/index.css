@@ -1,0 +1,19 @@
+html, body, #root {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  font-family: 'OpenSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  font-family: 'OpenSans', sans-serif;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(./font/OpenSans.ttf) format('truetype');
+}
